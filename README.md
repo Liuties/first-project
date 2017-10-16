@@ -1,15 +1,18 @@
 # first-project
 sudo
-how to use ConvenientBanner
-import: build.gradle---->compile 'com.bigkoo:convenientbanner:2.0.5'
-xml:xxx.xml---->
-<com.bigkoo.convenientbanner.ConvenientBanner xmlns:app="http://schemas.android.com/apk/res-auto"
-                            android:id="@+id/vp_recommend"
+
+    how to use ConvenientBanner
+
+    import: build.gradle---->compile 'com.bigkoo:convenientbanner:2.0.5'
+    xml:xxx.xml---->
+
+                            <com.bigkoo.convenientbanner.ConvenientBanner xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/convenientBanner"
                             android:layout_width="match_parent"
                             android:layout_height="264dp"
                             android:background="#ffffff"
                             app:canLoop="true" />
-java:xxx.java---->
+    java:xxx.java---->
 
         ArrayList<Integer> localImages = new ArrayList<Integer>();
         localImages.add(R.drawable.a);
